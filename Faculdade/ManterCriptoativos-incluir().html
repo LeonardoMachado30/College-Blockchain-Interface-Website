@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--<link rel="icon" href="../../../../favicon.ico">-->
+      <link rel="stylesheet" href="css1/style.min.css">
+
+    <title>Incluir Criptoativos</title>
+
+    <!-- Principal CSS do Bootstrap -->
+    <!--<link href="../../dist/css/bootstrap.min.css" rel="stylesheet">-->
+
+    <!-- Estilos customizados para esse template -->
+    <!--<link href="form-validation.css" rel="stylesheet">-->
+  </head>
+
+  <body class="bg-light">
+      <div class="container-fluid bg-primary">
+          
+
+    <div class="container bg-light">
+      <div class="py-5 text-center">
+        <img class="d-block mx-auto mb-4" src="img/logo01.png" alt="" width="200" height="200">
+        <h2>Incluir Criptoativos</h2>
+      </div>
+        
+      <div class="row justify-content-center mb-5 my-5">
+        <div class="col-sm-12 col-md-10 col-lg-8">
+          <form class="needs-validation" novalidate>
+            <div class="row">
+              <div class="col-md-6 mb-4">
+                <label for="tipoCriptoativo">Tipo criptoativo</label>
+                <select class="custom-select d-block w-100" id="tipoCriptoativo" required>
+                    <option selected disabled value="">Escolher...</option>
+                    <option value="CM">CriptoMoedas</option>
+                    <option value="CC">CriptoCommodities</option>
+                    <option value="ET">Etherum</option>
+                    <option value="CT">CriptoTokens</option>
+                </select>
+                <div class="invalid-feedback">
+                  Por favor, insira um estado válido.
+                </div>
+              </div>
+              </div>
+
+              <!-- ---------------------------- -->
+              <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="senha">Senha</label>
+                <input type="password" class="form-control" id="senha" placeholder="Senha" value="" required>
+                <div class="invalid-feedback">
+                  É obrigatório inserir um nome válido.
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="confirmasenha">Confime sua Senha</label>
+                <input type="password" class="form-control" id="confirmasenha" placeholder="Confirmar senha" value="" required>
+                <div class="invalid-feedback">
+                  É obrigatório inserir um sobre nome válido.
+                </div>
+              </div>
+            </div>
+            <hr class="mb-4">
+              <div class="row">
+                  <div class="col-md-1 my-2 mx-2">
+                      <a class="btn btn-dark" href="menuPrincipal.html">Salvar</a>
+                  </div>
+                  <div class="col-md-1 my-2 mx-2">
+                      <a class="btn btn-dark" href="menuPrincipal.html">Voltar</a>
+                  </div>
+            </div>
+          </form>
+        <!--</div>-->
+      </div>
+        <!--</div>-->
+        </div>
+          </div>
+
+      <footer class="mb-0 mt-5 pt-2 text-muted text-center text-small bg-dark">
+        <p class="mb-1">&copy; 2020 Coinvest B&P</p>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Privacidade</a></li>
+          <li class="list-inline-item"><a href="#">Termos</a></li>
+          <li class="list-inline-item"><a href="#">Suporte</a></li>
+        </ul>
+      </footer>
+    </div>
+      
+
+    <!-- Principal JavaScript do Bootstrap
+    ================================================== -->
+    <!-- Foi colocado no final para a página carregar mais rápido -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+      // Exemplo de JavaScript para desativar o envio do formulário, se tiver algum campo inválido.
+      (function() {
+        'use strict';
+
+        window.addEventListener('load', function() {
+          // Selecione todos os campos que nós queremos aplicar estilos Bootstrap de validação customizados.
+          var forms = document.getElementsByClassName('needs-validation');
+
+          // Faz um loop neles e previne envio
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+    </script>
+  </body>
+</html>

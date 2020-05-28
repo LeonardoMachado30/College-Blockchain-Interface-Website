@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--<link rel="icon" href="../../../../favicon.ico">-->
+      <link rel="stylesheet" href="css1/style.min.css">
+
+    <title>Alterar Cliente</title>
+
+    <!-- Principal CSS do Bootstrap -->
+    <!--<link href="../../dist/css/bootstrap.min.css" rel="stylesheet">-->
+
+    <!-- Estilos customizados para esse template -->
+    <!--<link href="form-validation.css" rel="stylesheet">-->
+  </head>
+
+  <body class="bg-light">
+      <div class="container-fluid bg-primary">
+          
+
+    <div class="container bg-light">
+      <div class="py-5 text-center">
+        <img class="d-block mx-auto mb-4" src="img/logo01.png" alt="" width="200" height="200">
+        <h2>Alterar dados</h2>
+      </div>
+        
+      <div class="row justify-content-center mb-5 my-5">
+        <div class="col-sm-12 col-md-10 col-lg-8">
+          <hr>
+          <form class="needs-validation" novalidate>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="primeiroNome">Nome</label>
+                <input type="text" class="form-control" id="primeiroNome" placeholder="" value="Nome" required>
+                <div class="invalid-feedback">
+                  É obrigatório inserir um nome válido.
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" class="form-control" id="sobrenome" placeholder="" value="Sobrenome" required>
+                <div class="invalid-feedback">
+                  É obrigatório inserir um sobre nome válido.
+                </div>
+              </div>
+            </div>
+              <!-- ---------------------------- -->
+              <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="Iemail">E-mail</label>
+                <input type="email" class="form-control" id="Iemail" placeholder="usuario@exemplo.com" value="">
+                <div class="invalid-feedback">
+                  Insira um E-mail valido.
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="Iemail2">Confirme seu E-mail</label>
+                <input type="email" class="form-control" id="Iemail2" placeholder="usuario@exemplo.com" value="">
+                <div class="invalid-feedback">
+                  Confirme seu E-mail.
+                </div>
+              </div>
+            </div>
+              <!-- ---------------------------- -->
+              <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="cpfcnpj">CPF ou CNPJ</label>
+                <input type="text" class="form-control" id="cpfcnpj" placeholder="000.000.000-00" value="000.000.000-00" required>
+                <div class="invalid-feedback">
+                  Insira um CPF ou CNPJ valido.
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="data">Data de Nascimento</label>
+                <input type="text" class="form-control" id="data" placeholder="" value="22/01/1998" required>
+                <div class="invalid-feedback">
+                  Informe sua data de nascimento.
+                </div>
+              </div>
+            </div>
+              <!-- ---------------------------- -->
+              <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="senha">Senha</label>
+                <input type="password" class="form-control" id="senha" placeholder="Senha" value="">
+                <div class="invalid-feedback">
+                  É obrigatório inserir um nome válido.
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="confirmasenha">Confime sua Senha</label>
+                <input type="password" class="form-control" id="confirmasenha" placeholder="Confirmar senha" value="">
+                <div class="invalid-feedback">
+                  É obrigatório inserir um sobre nome válido.
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="nickname">Nome de Usuário</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">@</span>
+                </div>
+                <input type="text" class="form-control" id="nickname" placeholder="" value="Usuariomaster" required>
+                <div class="invalid-feedback" style="width: 100%;">
+                  Seu nickname é obrigatório.
+                </div>
+              </div>
+            </div>
+
+
+            <div class="mb-3">
+              <label for="endereco">Endereço</label>
+              <input type="text" class="form-control" id="endereco" placeholder="" value="Qr: 222 Cs: 06" required>
+              <div class="invalid-feedback">
+                Por favor, insira seu endereço de entrega.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="endereco2">Complemento <span class="text-muted">(Opcional)</span></label>
+              <input type="text" class="form-control" id="endereco2" placeholder="Bloco.. Apartamento">
+            </div>
+
+            <div class="row">
+              <div class="col-md-5 mb-3">
+                <label for="pais">País</label>
+                    <input type="text" id="pais" class="form-control" value="Brasil" required>
+                <div class="invalid-feedback">
+                  Por favor, escolha um país válido.
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="estado">Estado</label>
+                  <input type="text" class="form-control" id="estado" value="Distrito Federal" required>
+                <div class="invalid-feedback">
+                  Por favor, insira um estado válido.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="cep">CEP</label>
+                <input type="text" class="form-control" id="cep" placeholder="" value="7894-789" required>
+                <div class="invalid-feedback">
+                  É obrigatório inserir um CEP.
+                </div>
+              </div>
+            </div>
+            <hr class="mb-4">
+            
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="salvar-info">
+              <label class="custom-control-label" for="salvar-info">Lembrar desta informação, na próxima vez.</label>
+            </div>
+            <hr class="mb-4">
+
+            <h4 class="mb-3">Dados Bancarios</h4>
+            <div class="row my-3">
+                                  <div class="col-md-4">
+                                      <label for="banco">Banco</label>
+                                      <input class="form-control" type="text" id="banco" value="ITAÚ" required>
+                                  </div>
+                                  <div class="col-md-4">
+                                      <label for="agencia">Agência</label>
+                                      <input type="text" class="form-control" id="agencia" value="187-5" required>
+                                  </div>
+                                  <div class="col-md-4">
+                                      <label for="cc">C/C</label>
+                                      <input type="text" class="form-control" id="cc" value="123556-8" required>
+                                  </div>
+                              </div>
+
+            
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="cc-nome">Nome no cartão</label>
+                <input type="text" class="form-control" id="cc-nome" placeholder="" value="NOME SOBRENOME" required>
+                <small class="text-muted">Nome completo, como mostrado no cartão.</small>
+                <div class="invalid-feedback">
+                  O nome que está no cartão é obrigatório.
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="cc-numero">Número do cartão de crédito</label>
+                <input type="text" class="form-control" id="cc-numero" placeholder="" value="1234 4569 789 1233" required>
+                <div class="invalid-feedback">
+                  O número do cartão de crédito é obrigatório.
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3 mb-3">
+                <label for="cc-expiracao">Data de expiração</label>
+                <input type="text" class="form-control" id="cc-expiracao" placeholder="" value="11/23" required>
+                <div class="invalid-feedback">
+                  Data de expiração é obrigatória.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="cc-cvv">CVV</label>
+                <input type="text" class="form-control" id="cc-cvv" placeholder="" value="123" required>
+                <div class="invalid-feedback">
+                  Código de segurança é obrigatório.
+                </div>
+              </div>
+            </div>
+            <hr class="mb-4">
+            <form method="POST" action="vizualizarCliente.html">
+              <a class="btn btn-dark btn-lg mb-5" href="vizualizarCliente.html">Salvar</a>
+            </form>
+            
+          </form>
+        <!--</div>-->
+      </div>
+        <!--</div>-->
+        </div>
+          </div>
+
+      <footer class="mb-0 mt-5 pt-2 text-muted text-center text-small bg-dark">
+        <p class="mb-1">&copy; 2020 Coinvest B&P</p>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Privacidade</a></li>
+          <li class="list-inline-item"><a href="#">Termos</a></li>
+          <li class="list-inline-item"><a href="#">Suporte</a></li>
+        </ul>
+      </footer>
+    </div>
+      
+
+    <!-- Principal JavaScript do Bootstrap
+    ================================================== -->
+    <!-- Foi colocado no final para a página carregar mais rápido -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+      // Exemplo de JavaScript para desativar o envio do formulário, se tiver algum campo inválido.
+      (function() {
+        'use strict';
+
+        window.addEventListener('load', function() {
+          // Selecione todos os campos que nós queremos aplicar estilos Bootstrap de validação customizados.
+          var forms = document.getElementsByClassName('needs-validation');
+
+          // Faz um loop neles e previne envio
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+    </script>
+  </body>
+</html>
