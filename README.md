@@ -18,6 +18,7 @@ Descriçaõ: Aqui o usuario tem informações o login é a senha, tambem tem a p
 ![alt text](https://github.com/LeonardoMachado30/Telas-PIU-V6.0/blob/master/Faculdade/IMG_/1.png)
 <br>
 <b>IMAGEM 2 - TELA CADASTRAR FUNCIONARIO</b><br>
+
 Descriçaõ: Aqui o usuario informa os dados para cadastro.<br>
 ![alt text](https://github.com/LeonardoMachado30/Telas-PIU-V6.0/blob/master/Faculdade/IMG_/8.png)
 <br>
