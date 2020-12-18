@@ -43,10 +43,10 @@ OBSERVAÇÃO: A pagina consiste em mais imagens, porem para facilitar a vizualiz
 <b>IMAGEM 5 - TELA CADASTRAR CLIENTE/CRIPTOATIVOS</b><br>
 Descrição: Aqui o usuario cadastra um funcionario novo, informando os respectivos dados.
 <br>
-![alt text](https://github.com/LeonardoMachado30/Telas-PIU-V6.0/blob/master/Faculdade/IMG_/3.png)
-<br>
-<br>
 ![alt text](https://github.com/LeonardoMachado30/Telas-PIU-V6.0/blob/master/Faculdade/IMG_/2.png)
+<br>
+<br>
+![alt text](https://github.com/LeonardoMachado30/Telas-PIU-V6.0/blob/master/Faculdade/IMG_/3.png)
 <br>
 <br>
 ![alt text](https://github.com/LeonardoMachado30/Telas-PIU-V6.0/blob/master/Faculdade/IMG_/8.png)
