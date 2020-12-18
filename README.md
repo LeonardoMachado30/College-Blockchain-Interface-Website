@@ -12,14 +12,41 @@ Activity of the Faculty of User Interface Design (PIU), make a system based on t
 <br>
 <h3>IMAGENS DO PROJETO</h3>
 <br>
-<b>IMAGEM 1 - TELA PRINCIPAL</b><br>
-Descriçaõ: aqui o usuario tem informações de preços, imagens, e um sistema de pop-up.<br>
-
-![alt text](https://github.com/LeonardoMachado30/PIU_HORTIFRUT/blob/master/IMG/1.png)
+<b>IMAGEM 1 - TELA LOGIN</b><br>
+Descriçaõ: Aqui o usuario tem informações o login é a senha, tambem tem a possibilidade de cadastrar.
 <br>
-![alt text](https://github.com/LeonardoMachado30/PIU_HORTIFRUT/blob/master/IMG/2.png)
+![alt text](https://github.com/LeonardoMachado30/Telas-PIU-V6.0/blob/master/Faculdade/IMG_/1.png)
 <br>
-<b>IMAGEM 2 - TELA CADASTRAR</b><br>
-Descrição: Esse painel e o cadastro do usuario, sem muitas validações.<br>
-
-![alt text](https://github.com/LeonardoMachado30/PIU_HORTIFRUT/blob/master/IMG/3.png)
+<b>IMAGEM 2 - TELA CADASTRAR FUNCIONARIO</b><br>
+Descriçaõ: Aqui o usuario informa os dados para cadastro.<br>
+![alt text](https://github.com/LeonardoMachado30/Telas-PIU-V6.0/blob/master/Faculdade/IMG_/8.png)
+<br>
+![alt text](https://github.com/LeonardoMachado30/Telas-PIU-V6.0/blob/master/Faculdade/IMG_/9.png)
+<br>
+<b>IMAGEM 3 - TELA PAINEL PRINCIPAL</b><br>
+Descrição: Aqui o usuario tem 3 tabelas, cada uma com a opção de 'incluir' e 'consultar' as respectivas informações.
+<br>
+![alt text](https://github.com/LeonardoMachado30/Telas-PIU-V6.0/blob/master/Faculdade/IMG_/4.png)
+<br>
+<b>IMAGEM 4 - TELA CONSULTAR CLIENTE/FUNCIONARIO/CRIPTOATIVOS</b><br>
+Descrição: Aqui o usuario tem acesso a todos os clientes cadastrados, com a possibilidade de 'consultar' as informações e de 'excluir'.
+<br>
+OBSERVAÇÃO: A pagina consiste em mais imagens, porem para facilitar a vizualização das outras imagens so irei colocar 1 imagem.
+<br>
+![alt text](https://github.com/LeonardoMachado30/Telas-PIU-V6.0/blob/master/Faculdade/IMG_/5.png)
+<br>
+![alt text](https://github.com/LeonardoMachado30/Telas-PIU-V6.0/blob/master/Faculdade/IMG_/6.png)
+<br>
+![alt text](https://github.com/LeonardoMachado30/Telas-PIU-V6.0/blob/master/Faculdade/IMG_/7.png)
+<br>
+<b>IMAGEM 5 - TELA CADASTRAR CLIENTE/CRIPTOATIVOS</b><br>
+Descrição: Aqui o usuario cadastra um funcionario novo, informando os respectivos dados.
+<br>
+![alt text](https://github.com/LeonardoMachado30/Telas-PIU-V6.0/blob/master/Faculdade/IMG_/3.png)
+<br>
+<br>
+![alt text](https://github.com/LeonardoMachado30/Telas-PIU-V6.0/blob/master/Faculdade/IMG_/2.png)
+<br>
+<br>
+![alt text](https://github.com/LeonardoMachado30/Telas-PIU-V6.0/blob/master/Faculdade/IMG_/8.png)
+<br>
