@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css1/style.min.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+      <!-- 1- Modal -->
+      <div class="modal fade" id="delete-modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+          <div class="modal-dialog modal-dialog-centered"  role="document">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="modalLabel">Excluir</h4>
+                  </div>
+                  <div class="modal-body">
+                      Deseja realmente excluir este Cartão?
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-primary">Sim</button>
+                      <button type="button" class="btn btn-default" data-dismiss="modal">N&atilde;o</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="container-fluid">
+          
+          <!-- Menu ---->
+          <header>
+            <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">
+                      <img src="img/Logo02.png" width="100" alt="">
+                  </a>
+          <a class="navbar-brand" href="menuPrincipal.html">COINVEST B &P</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <a class="nav-link" href="index.html" style="margin-left: 60rem !important;">Sair</a>
+            </ul>
+          </div>
+        </nav>  
+      </header>
+          <!-- Fim do Menu ---->
+          
+          <div class="container">
+              <div class="py-5 text-center">
+                  <img class="d-block mx-auto mb-4" src="img/avatar.jpg" alt="..." width="100" height="100">
+              </div>
+              
+              <h4 class="pag-header">Informações Pessoais</h4>
+              <hr>
+              
+              <div class="row">
+                  <div class="col-md-4">
+                      <p><strong>Nome</strong></p>
+                      <p>{Aqui vai o Nome do usuário}</p>
+                  </div>
+                  <div class="col-md-4">
+                      <p><strong>Data de nascimento</strong></p>
+                      <p>{Aqui vai a data de nascimento do usuário}</p>
+                  </div>
+                  <div class="col-md-4">
+                      <p><strong>CPF / CNPJ</strong></p>
+                      <p>{Aqui vai o CPF / CNPJ do usuário}</p>
+                  </div>
+              </div>
+              <hr>
+              <div class="row">
+                  <div class="col-md-4">
+                      <p><strong>E-mail</strong></p>
+                      <p>{exemplo@exemplo.com}</p>
+                  </div>
+                  <div class="col-md-4">
+                      <p><strong>Telefone 1</strong></p>
+                      <p>{(00) 0 0000-0000}</p>
+                  </div>
+                  <div class="col-md-4">
+                      <p><strong>Telefone 2</strong></p>
+                      <p>{(00) 0 0000-0000}</p>
+                  </div>
+              </div>
+              <hr>
+               <div class="row">
+                  <div class="col-md-4">
+                      <p><strong>Endereço</strong></p>
+                      <p>{Aqui vai o Endereço do usuário}</p>
+                  </div>
+                  <div class="col-md-4">
+                      <p><strong>Cidade</strong></p>
+                      <p>{Aqui vai o Cidade do usuário}</p>
+                  </div>
+                   <div class="col-md-4">
+                      <p><strong>Estado</strong></p>
+                      <p>{Aqui vai o Estado do usuário}</p>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-4">
+                      <p><strong>País</strong></p>
+                      <p>{Aqui vai o país do usuário}</p>
+                  </div>
+                  <div class="col-md-4">
+                      <p><strong>CEP</strong></p>
+                      <p>{Aqui vai o CEP do usuário}</p>
+                  </div>
+              </div>
+              <hr>
+              <h4 class="pag-header">Informações de Pagamento</h4>
+              <hr>
+              <div class="row">
+                  <div class="col-md-4">
+                      <p><strong>Bandeira Cartão 01</strong></p>
+                      <p>{Aqui vai as informações do cartão 01}</p>
+                      <a href="#" data-toggle="modal" data-target="#delete-modal">Excluir</a>
+                      
+                  </div>
+                  <div class="col-md-4">
+                      <p><strong>Bandeira Cartão 02</strong></p>
+                      <p>{Aqui vai as informações do cartão 02}</p>
+                      <a href="#" data-toggle="modal" data-target="#delete-modal">Excluir</a>
+                  </div>
+              </div>
+              <hr>
+              <h4 class="pag-header">Dados Bancarios</h4>
+              <hr>
+              <div class="row">
+                  <div class="col-md-4">
+                      <p><strong>Banco</strong></p>
+                      <p>{ITAU}</p>
+                  </div>
+                  <div class="col-md-4">
+                      <p><strong>Agência</strong></p>
+                      <p>{1661166-5}</p>
+                  </div>
+                  <div class="col-md-4">
+                      <p><strong>C/C</strong></p>
+                      <p>{1661166-5}</p>
+                  </div>
+              </div>
+              <hr />
+              <div id="actions" class="row">
+                  <div class="col-md-12">
+                      <a href="alterarCliente.html" class="btn btn-dark">Editar</a>
+                      <a href="consultarCliente.html" class="btn btn-dark">Voltar</a>
+                  </div>
+              </div>
+          </div>
+          
+          
+          
+          <footer class="mb-0 mt-5 pt-2 text-muted text-center text-small bg-dark">
+              <p class="mb-1">&copy; 2020 Coinvest B&P</p>
+              <ul class="list-inline">
+                  <li class="list-inline-item"><a href="#">Privacidade</a></li>
+                  <li class="list-inline-item"><a href="#">Termos</a></li>
+                  <li class="list-inline-item"><a href="#">Suporte</a></li>
+              </ul>
+          </footer>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
